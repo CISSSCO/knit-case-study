@@ -1,1 +1,1 @@
-# kinit-case-study
+# knit-case-study
