@@ -1,0 +1,3 @@
+source /home/apps/spack/share/spack/setup-env.sh
+spack load gromacs/hky3o53
+spack load openmpi/mlvifkq

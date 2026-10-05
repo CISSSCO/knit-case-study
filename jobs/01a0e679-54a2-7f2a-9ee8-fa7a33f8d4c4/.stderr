@@ -1,0 +1,2171 @@
+     :-) GROMACS - gmx grompp, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'cpp'
+Ignoring obsolete mdp entry 'ns_type'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file unknown]:
+  You are using constraints on all bonds, whereas the forcefield has been
+  parametrized only with constraints involving hydrogen atoms. We suggest
+  using constraints = h-bonds instead, this will also improve performance.
+
+Number of degrees of freedom in T-Coupling group System is 6143997.00
+
+There was 1 NOTE
+
+Back Off! I just backed up water_pme.tpr to ./#water_pme.tpr.3#
+
+GROMACS reminds you: "A curious aspect of the theory of evolution is that everybody thinks he understands it." (Jacques Monod)
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+      :-) GROMACS - gmx mdrun, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -s water_pme.tpr -nb gpu -pme gpu
+
+
+Back Off! I just backed up md.log to ./#md.log.3#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.4#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up md.log to ./#md.log.5#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.6#
+
+Sorry couldn't backup md.log to ./#md.log.6#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up md.log to ./#md.log.7#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.8#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up md.log to ./#md.log.9#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up md.log to ./#md.log.10#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.11#
+
+Sorry couldn't backup md.log to ./#md.log.11#
+
+Back Off! I just backed up md.log to ./#md.log.12#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up md.log to ./#md.log.13#
+
+Back Off! I just backed up md.log to ./#md.log.14#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.15#
+
+Sorry couldn't backup md.log to ./#md.log.15#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.3#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+Using 1 MPI process
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Non-default thread affinity set, disabling internal thread affinity
+
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up md.log to ./#md.log.16#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.17#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.18#
+
+Sorry couldn't backup md.log to ./#md.log.18#
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up ener.edr to ./#ener.edr.4#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.4#
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up md.log to ./#md.log.19#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up ener.edr to ./#ener.edr.5#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.6#
+
+Back Off! I just backed up md.log to ./#md.log.20#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up ener.edr to ./#ener.edr.7#
+
+Back Off! I just backed up md.log to ./#md.log.21#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up ener.edr to ./#ener.edr.8#
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up ener.edr to ./#ener.edr.9#
+
+Back Off! I just backed up md.log to ./#md.log.22#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.10#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up ener.edr to ./#ener.edr.11#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.11#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.11#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.11#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.12#
+
+Back Off! I just backed up md.log to ./#md.log.23#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.24#
+
+Sorry couldn't backup md.log to ./#md.log.24#
+
+Back Off! I just backed up md.log to ./#md.log.25#
+
+Sorry couldn't backup md.log to ./#md.log.25#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up ener.edr to ./#ener.edr.13#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.14#
+
+Back Off! I just backed up md.log to ./#md.log.26#
+
+Back Off! I just backed up md.log to ./#md.log.27#
+
+Sorry couldn't backup md.log to ./#md.log.27#
+
+Back Off! I just backed up md.log to ./#md.log.28#
+
+Sorry couldn't backup md.log to ./#md.log.28#
+
+Sorry couldn't backup md.log to ./#md.log.28#
+
+Back Off! I just backed up md.log to ./#md.log.29#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Sorry couldn't backup md.log to ./#md.log.29#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.30#
+
+Sorry couldn't backup md.log to ./#md.log.30#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.31#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up md.log to ./#md.log.32#
+
+Sorry couldn't backup md.log to ./#md.log.32#
+
+Back Off! I just backed up md.log to ./#md.log.32#
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+Reading file water_pme.tpr, VERSION 2026.3-spack-dev-20260625-1210900-local (single precision)
+
+Back Off! I just backed up ener.edr to ./#ener.edr.15#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.16#
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Back Off! I just backed up ener.edr to ./#ener.edr.17#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.18#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.19#
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+Changing nstlist from 10 to 100, rlist from 1 to 1.173
+
+1 GPU selected for this run.
+Mapping of GPU IDs to the 2 GPU tasks in the 1 rank on this node:
+  PP:0,PME:0
+PP tasks will do non-perturbed short-ranged interactions on the GPU
+PP task will update and constrain coordinates on the GPU
+PME tasks will do all aspects on the GPU
+Using 1 MPI process
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 48 OpenMP threads 
+
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+
+Back Off! I just backed up ener.edr to ./#ener.edr.20#
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+
+Back Off! I just backed up ener.edr to ./#ener.edr.21#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.22#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.22#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.22#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.22#
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+
+Back Off! I just backed up ener.edr to ./#ener.edr.23#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.23#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.24#
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+
+Back Off! I just backed up ener.edr to ./#ener.edr.25#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.26#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.27#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.27#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.27#
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+
+Back Off! I just backed up ener.edr to ./#ener.edr.28#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.29#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.30#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.31#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.32#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.32#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.32#
+
+Sorry couldn't backup ener.edr to ./#ener.edr.32#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.33#
+
+Back Off! I just backed up ener.edr to ./#ener.edr.34#
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+starting mdrun 'Water'
+33 steps,      0.1 ps.
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.1#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.2#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.3#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.4#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.5#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.6#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.7#
+
+Writing final coordinates.
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.8#
+
+Back Off! I just backed up confout.gro to ./#confout.gro.3#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.9#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.10#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.11#
+srun: error: cbgpu0116: task 46: Exited with exit code 1
+srun: Terminating StepId=83004.0
+[2026-09-28T10:56:20.524] error: *** STEP 83004.0 ON cbgpu0116 CANCELLED AT 2026-09-28T10:56:20 DUE TO TASK FAILURE ***
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.12#
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.13#
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.14#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.14#
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.14#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.15#
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.16#
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.16#
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.16#
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.16#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.16#
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.16#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.17#
+
+Sorry couldn't backup state_step33.cpt to ./#state_step33.cpt.17#
+
+Writing final coordinates.
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.18#
+
+Back Off! I just backed up state_step33.cpt to ./#state_step33.cpt.19#
+
+Back Off! I just backed up confout.gro to ./#confout.gro.4#
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+
+System I/O error:
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+Writing final coordinates.
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+Back Off! I just backed up confout.gro to ./#confout.gro.5#
+srun: error: cbgpu0116: task 26: Exited with exit code 1
+srun: error: cbgpu0116: task 37: Exited with exit code 1
+srun: error: cbgpu0116: task 27: Exited with exit code 1
+srun: error: cbgpu0116: task 44: Exited with exit code 1
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+srun: error: cbgpu0116: task 10: Exited with exit code 1
+srun: error: cbgpu0116: task 6: Exited with exit code 1
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+
+System I/O error:
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+srun: error: cbgpu0116: task 21: Exited with exit code 1
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+
+
+
+
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+srun: error: cbgpu0116: task 12: Exited with exit code 1
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+
+System I/O error:
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+srun: error: cbgpu0116: task 3: Exited with exit code 1
+srun: error: cbgpu0116: task 22: Exited with exit code 1
+srun: error: cbgpu0116: task 11: Exited with exit code 1
+srun: error: cbgpu0116: task 45: Exited with exit code 1
+srun: error: cbgpu0116: task 39: Exited with exit code 1
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+srun: error: cbgpu0116: task 33: Exited with exit code 1
+srun: error: cbgpu0116: task 19: Exited with exit code 1
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+  Proc: [[53416,0],0]
+  Errorcode: 1
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+srun: error: cbgpu0116: task 4: Exited with exit code 1
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+
+
+
+
+
+
+
+
+
+
+
+
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+-------------------------------------------------------
+Program:     gmx mdrun, version 2026.3-spack-dev-20260625-1210900-local
+Source file: src/gromacs/mdlib/mdoutf.cpp (line 514)
+Function:    void write_checkpoint(const char*, gmx_bool, FILE*, const t_commrec*, int*, int, IntegrationAlgorithm, int, gmx_bool, LambdaWeightCalculation, int64_t, double, t_state*, ObservablesHistory*, const gmx::MDModulesNotifiers&, gmx::WriteCheckpointDataHolder*, bool, MPI_Comm)
+
+System I/O error:
+Cannot rename checkpoint file; maybe you are out of disk space?
+
+For more information and tips for troubleshooting, please check the GROMACS
+website at https://manual.gromacs.org/current/user-guide/run-time-errors.html
+-------------------------------------------------------
+
+
+Received the TERM signal, stopping within 100 steps
+
+srun: error: cbgpu0116: task 47: Exited with exit code 1
+srun: error: cbgpu0116: task 17: Exited with exit code 1
+srun: error: cbgpu0116: task 23: Exited with exit code 1
+srun: error: cbgpu0116: task 14: Exited with exit code 1
+srun: error: cbgpu0116: task 29: Exited with exit code 1
+srun: error: cbgpu0116: task 42: Exited with exit code 1
+srun: error: cbgpu0116: task 1: Exited with exit code 1
+srun: error: cbgpu0116: task 5: Exited with exit code 1
+srun: error: cbgpu0116: task 43: Exited with exit code 1
+srun: error: cbgpu0116: tasks 8,28,34,38,41: Exited with exit code 1
+srun: error: cbgpu0116: task 16: Exited with exit code 1
+srun: error: cbgpu0116: task 32: Exited with exit code 1
+srun: error: cbgpu0116: task 36: Exited with exit code 1
+srun: error: cbgpu0116: task 25: Exited with exit code 1
+srun: error: cbgpu0116: task 35: Exited with exit code 1
+srun: error: cbgpu0116: task 18: Exited with exit code 1
+srun: error: cbgpu0116: task 24: Exited with exit code 1
+
+
+Received the TERM signal, stopping within 100 steps
+
+
+
+Received the TERM signal, stopping within 100 steps
+
+srun: error: cbgpu0116: task 7: Exited with exit code 1
+srun: error: cbgpu0116: task 9: Exited with exit code 1
+srun: error: cbgpu0116: task 30: Exited with exit code 1
+srun: error: cbgpu0116: task 0: Exited with exit code 1
+srun: error: cbgpu0116: task 13: Exited with exit code 1
+srun: error: cbgpu0116: task 15: Exited with exit code 1
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     2278.541       50.968     4470.5
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:        0.115      208.203     1499.064            2.049 
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     2395.449       50.633     4731.0
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:        0.116      206.834     1489.208            2.063 
+
+               Core t (s)   Wall t (s)        (%)
+       Time:     2404.578       50.828     4730.8
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:        0.116      207.630     1494.939            2.055 
+srun: error: cbgpu0116: task 31: Exited with exit code 1
+
+GROMACS reminds you: "In the processing of models we must be especially cautious of the human weakness to think that models can be verified or validated. Especially one's own." (Roald Hoffmann)
+
+
+GROMACS reminds you: "In the processing of models we must be especially cautious of the human weakness to think that models can be verified or validated. Especially one's own." (Roald Hoffmann)
+
+
+GROMACS reminds you: "In the processing of models we must be especially cautious of the human weakness to think that models can be verified or validated. Especially one's own." (Roald Hoffmann)
+
+srun: error: cbgpu0116: tasks 2,20: Exited with exit code 1
+srun: error: cbgpu0116: task 40: Exited with exit code 1

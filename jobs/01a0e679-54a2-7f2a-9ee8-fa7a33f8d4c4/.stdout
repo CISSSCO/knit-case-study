@@ -1,0 +1,170 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 83004
+SLURM_JOB_NAME = knit-gromacs-multi
+SLURM_JOB_NODELIST = cbgpu0116
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = gpu-debug
+SLURM_TASK_PID = 2697442
+SLURM_SUBMIT_DIR = /home/apps/knit
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 48
+SLURM_TASK_PID = 2697442
+==========================================
+========================================
+       KNIT GROMACS - MULTI NODE
+========================================
+
+SLURM ALLOCATION
+----------------------------------------
+Job ID        : 83004
+Job Name      : knit-gromacs-multi
+Partition     : gpu-debug
+Nodes         : 1
+NodeList      : cbgpu0116
+Tasks         : 48
+Tasks/node    : 48
+CPUs/node     : 48
+
+ALLOCATED HOSTS
+----------------------------------------
+cbgpu0116
+
+EXECUTABLE CHECK
+----------------------------------------
+GROMACS executable:
+/home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+-rwxr-xr-x 1 cdacapp01 cdacapp01 122K Aug 21 18:49 /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+
+/home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=53b9433d04354adff72d996c62178be5223854e8, for GNU/Linux 3.2.0, not stripped
+
+MPI ENVIRONMENT
+----------------------------------------
+MPI launcher:
+/home/apps/spack/opt/spack/linux-cascadelake/openmpi-5.0.10-mlvifkqt2avfmuy3asiecweocbvo563t/bin/mpirun
+
+MPI version:
+mpirun (Open MPI) 5.0.10
+
+Report bugs to https://www.open-mpi.org/community/help/
+
+
+Intel MPI bootstrap:
+I_MPI_HYDRA_BOOTSTRAP=slurm
+
+Intel MPI fabric:
+I_MPI_FABRICS=shm:ofi
+
+GROMACS:
+       :-) GROMACS - gmx_mpi, 2026.3-spack-dev-20260625-1210900-local (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.3-hky3o5332ominj4ce4b6p2epw3cbw6jw
+Working dir:  /home/apps/knit/jobs/01a0e679-54a2-7f2a-9ee8-fa7a33f8d4c4
+Command line:
+  gmx_mpi --version
+
+GROMACS version:     2026.3-spack-dev-20260625-1210900-local
+GIT SHA1 hash:       121090014570a53a17ea391bcddae45e5ea05eb4
+Branched from:       unknown
+Precision:           mixed
+Memory model:        64 bit
+MPI library:         MPI (GPU-aware: CUDA)
+MPI version:         Open MPI v5.0.10, package: Open MPI cdacapp01@login02 Distribution, ident: 5.0.10, repo rev: v5.0.10, Feb 23, 2026
+OpenMP support:      enabled (GMX_OPENMP_MAX_THREADS = 128)
+GPU support:         CUDA
+NBNxM GPU setup:     super-cluster 2x2x2 / cluster 8 (cluster-pair splitting on)
+SIMD instructions:   AVX_512
+CPU FFT library:     Intel MKL version 2026.0.0 Build 20260401
+GPU FFT library:     cuFFT
+Multi-GPU FFT:       none
+RDTSCP:              enabled
+TNG support:         enabled
+Hwloc support:       hwloc-2.13.0
+Tracing support:     disabled
+Colvars support:     enabled (version 2025-10-13)
+CP2K support:        disabled
+Torch support:       disabled
+Plumed support:      disabled
+C compiler:          /home/apps/spack/opt/spack/linux-cascadelake/compiler-wrapper-1.1.0-nxqlf4fepuimw6hpvrlfky7rrlddgqdq/libexec/spack/gcc/gcc GNU 11.5.0
+C compiler flags:    -Wno-array-bounds -fexcess-precision=fast -funroll-all-loops -march=skylake-avx512 -Wall -Wno-unused -Wunused-value -Wunused-parameter -Wextra -Wno-sign-compare -Wpointer-arith -Wpedantic -Wundef -Werror=stringop-truncation -Wshadow -Wno-missing-field-initializers -O3 -DNDEBUG
+C++ compiler:        /home/apps/spack/opt/spack/linux-cascadelake/compiler-wrapper-1.1.0-nxqlf4fepuimw6hpvrlfky7rrlddgqdq/libexec/spack/gcc/g++ GNU 11.5.0
+C++ compiler flags:  -Wno-array-bounds -fexcess-precision=fast -funroll-all-loops -march=skylake-avx512 -Wall -Wextra -Wpointer-arith -Wmissing-declarations -Wpedantic -Wundef -Wstringop-truncation -Wshadow -Wno-missing-field-initializers -Wno-old-style-cast -Wno-cast-qual -Wno-suggest-override -Wno-suggest-destructor-override -Wno-zero-as-null-pointer-constant -Wno-cast-function-type-strict SHELL:-fopenmp -O3 -DNDEBUG
+BLAS library:        External - user-supplied
+LAPACK library:      External - user-supplied
+CUDA compiler:       /home/apps/spack/opt/spack/linux-cascadelake/cuda-13.1.1-fqqyj4heehd2l44w4i6kspr7dbnmdvgi/bin/nvcc (NVIDIA 13.1.115)
+CUDA compiler flags:  -D_FORCE_INLINES -O3 -DNDEBUG -use_fast_math -static-global-template-stub=false -Xptxas=-warn-double-usage -Xptxas=-Werror -diag-suppress=177 -O3 -DNDEBUG
+CUDA targets:        80
+CUDA driver:         13.10
+CUDA runtime:        13.10
+NVSHMEM:             disabled
+
+
+GROMACS EXPERIMENT DIRECTORY
+----------------------------------------
+/home/apps/knit/water-cut1.0_GMX50_bare/3072
+
+INPUT FILES
+----------------------------------------
+-rw-r--r-- 1 cdacapp01 cdacapp01 203M Sep 24 12:15 conf.gro
+-rw-r--r-- 1 cdacapp01 cdacapp01  938 Sep 24 12:15 pme.mdp
+-rw-r--r-- 1 cdacapp01 cdacapp01  692 Sep 24 12:15 topol.top
+
+========================================
+GENERATING GROMACS INPUT
+========================================
+Setting the LD random seed to 2139006391
+
+Generated 330891 of the 330891 non-bonded parameter combinations
+
+Generated 330891 of the 330891 1-4 parameter combinations
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+turning all bonds into constraints...
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Excluding 2 bonded neighbours molecule type 'SOL'
+
+Taking velocities from 'conf.gro'
+Analysing residue names:
+There are: 1024000      Water residues
+
+The largest distance between excluded atoms is 0.165 nm between atom 2677112 and 2677113
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.036 nm, buffer size 0.036 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.000 nm, buffer size 0.000 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+Calculating fourier grid dimensions for X Y Z
+Using a fourier grid of 400x200x200, spacing 0.125 0.125 0.125
+
+Estimate for the relative computational load of the PME mesh part: 0.34
+
+This run will generate roughly 234 Mb of data
+
+========================================
+RUNNING MULTI-NODE GROMACS
+========================================
+MPI ranks     : 48
+Nodes         : 1
+Ranks/node    : 48
+
+========================================
+MULTI-NODE GROMACS FINISHED
+========================================
+Exit code     : 1
+Wall time     : 85 seconds

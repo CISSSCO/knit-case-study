@@ -1,0 +1,13 @@
+{
+  "description": "PARAM Rudra 20 PF - CDAC",
+  "scheduler": {
+    "type": "slurm"
+  },
+  "launcher": {
+    "type": "slurm"
+  },
+  "hardware": {
+    "cores_per_node": 48,
+    "gpus_per_node": 2
+  }
+}

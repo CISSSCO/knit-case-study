@@ -1,0 +1,210 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 76283
+SLURM_JOB_NAME = knit-lammps-multi
+SLURM_JOB_NODELIST = cbhm[0041-0044]
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = debug
+SLURM_TASK_PID = 3937186
+SLURM_SUBMIT_DIR = /home/apps/knit
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 192
+SLURM_TASK_PID = 3937186
+==========================================
+========================================
+       KNIT LAMMPS - MULTI NODE
+========================================
+
+SLURM ALLOCATION
+----------------------------------------
+Job ID        : 76283
+Job Name      : knit-lammps-multi
+Partition     : debug
+Nodes         : 4
+NodeList      : cbhm[0041-0044]
+Tasks         : 192
+Tasks/node    : 48
+CPUs/node     : 48
+
+ALLOCATED HOSTS
+----------------------------------------
+cbhm0041
+cbhm0042
+cbhm0043
+cbhm0044
+
+EXECUTABLE CHECK
+----------------------------------------
+LAMMPS executable:
+/home/apps/spack/opt/spack/linux-cascadelake/lammps-20250722.3-4dwl4bkyshwzbrou5ylumnf5mmu7dl3t/bin/lmp
+-rwxr-xr-x 1 cdacapp01 cdacapp01 24K May 13 16:32 /home/apps/spack/opt/spack/linux-cascadelake/lammps-20250722.3-4dwl4bkyshwzbrou5ylumnf5mmu7dl3t/bin/lmp
+
+/home/apps/spack/opt/spack/linux-cascadelake/lammps-20250722.3-4dwl4bkyshwzbrou5ylumnf5mmu7dl3t/bin/lmp: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=fa5a49e606433d9f7681db2ec571bda0fa2ec76e, for GNU/Linux 3.2.0, not stripped
+
+MPI ENVIRONMENT
+----------------------------------------
+MPI launcher:
+/home/apps/spack/opt/spack/linux-cascadelake/openmpi-5.0.10-22inq4oxg3p4st2k2z34pibrhyocvoj7/bin/mpirun
+
+MPI version:
+mpirun (Open MPI) 5.0.10
+
+Report bugs to https://www.open-mpi.org/community/help/
+
+
+MPI environment:
+OMPI_MCA_plm_slurm_args=--external-launcher
+SLURMD_NODENAME=cbhm0041
+SLURM_CLUSTER_NAME=rudra20pf-hpc
+SLURM_CONF=/var/share/slurm/d/conf-cache/slurm.conf
+SLURM_CPUS_ON_NODE=48
+SLURM_GTIDS=0
+SLURM_JOBID=76283
+SLURM_JOB_ACCOUNT=cdac
+SLURM_JOB_CPUS_PER_NODE=48(x4)
+SLURM_JOB_END_TIME=1790242185
+SLURM_JOB_GID=80014
+SLURM_JOB_ID=76283
+SLURM_JOB_NAME=knit-lammps-multi
+SLURM_JOB_NODELIST=cbhm[0041-0044]
+SLURM_JOB_NUM_NODES=4
+SLURM_JOB_PARTITION=debug
+SLURM_JOB_QOS=normal
+SLURM_JOB_START_TIME=1790238585
+SLURM_JOB_UID=80014
+SLURM_JOB_USER=cdacapp01
+SLURM_LOCALID=0
+SLURM_MEM_PER_NODE=184320
+SLURM_NNODES=4
+SLURM_NODEID=0
+SLURM_NODELIST=cbhm[0041-0044]
+SLURM_NPROCS=192
+SLURM_NTASKS=192
+SLURM_NTASKS_PER_NODE=48
+SLURM_OOM_KILL_STEP=0
+SLURM_PRIO_PROCESS=0
+SLURM_PROCID=0
+SLURM_SCRIPT_CONTEXT=prolog_task
+SLURM_SUBMIT_DIR=/home/apps/knit
+SLURM_SUBMIT_HOST=login03
+SLURM_TASKS_PER_NODE=48(x4)
+SLURM_TASK_PID=3937186
+SLURM_TOPOLOGY_ADDR=cbhm0041
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+
+LAMMPS:
+
+Large-scale Atomic/Molecular Massively Parallel Simulator - 22 Jul 2025 - Update 3
+
+Usage example: /home/apps/spack/opt/spack/linux-cascadelake/lammps-20250722.3-4dwl4bkyshwzbrou5ylumnf5mmu7dl3t/bin/lmp -var t 300 -echo screen -in in.alloy
+
+List of command-line options supported by this LAMMPS executable:
+
+-echo none/screen/log/both  : echoing of input script (-e)
+-help                       : print this help message (-h)
+-in none/filename           : read input from file or stdin (default) (-i)
+
+LAMMPS EXPERIMENT DIRECTORY
+----------------------------------------
+/home/apps/knit/
+
+INPUT FILE
+----------------------------------------
+-rw-r--r-- 1 cdacapp01 cdacapp01 473 Sep 24 12:15 in.lj.txt
+
+LAMMPS APPLICATION
+----------------------------------------
+Application   : LAMMPS
+Executable    : /home/apps/spack/opt/spack/linux-cascadelake/lammps-20250722.3-4dwl4bkyshwzbrou5ylumnf5mmu7dl3t/bin/lmp
+MPI launcher  : mpirun
+MPI ranks     : 192
+Nodes         : 4
+Ranks/node    : 48
+Input file    : in.lj.txt
+
+MPI HOST LIST
+----------------------------------------
+cbhm0041
+cbhm0042
+cbhm0043
+cbhm0044
+
+MPI RANK DISTRIBUTION
+----------------------------------------
+Expected:
+192 MPI ranks
+48 ranks per node
+
+========================================
+RUNNING MULTI-NODE LAMMPS
+========================================
+LAMMPS (22 Jul 2025 - Update 3)
+OMP_NUM_THREADS environment is not set. Defaulting to 1 thread.
+  using 1 OpenMP thread(s) per MPI task
+Lattice spacing in x,y,z = 1.6795962 1.6795962 1.6795962
+Created orthogonal box = (0 0 0) to (33.591924 33.591924 33.591924)
+  8 by 4 by 6 MPI processor grid
+Created 32000 atoms
+  using lattice units in orthogonal box = (0 0 0) to (33.591924 33.591924 33.591924)
+  create_atoms CPU = 0.005 seconds
+Generated 0 of 0 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 20 steps, delay = 0 steps, check = no
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 2.8
+  ghost atom cutoff = 2.8
+  binsize = 1.4, bins = 24 24 24
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair lj/cut, perpetual
+      attributes: half, newton on
+      pair build: half/bin/atomonly/newton
+      stencil: half/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : lj
+  Current step  : 0
+  Time step     : 0.005
+Per MPI rank memory allocation (min/avg/max) = 2.605 | 2.608 | 2.614 Mbytes
+   Step          Temp          E_pair         E_mol          TotEng         Press     
+         0   1.44          -6.7733681      0             -4.6134356     -5.0197073    
+    100000   0.69136689    -5.6696909      0             -4.6326729      0.72945576   
+Loop time of 19.4789 on 192 procs for 100000 steps with 32000 atoms
+
+Performance: 2217788.721 tau/day, 5133.770 timesteps/s, 164.281 Matom-step/s
+99.4% CPU use with 192 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 7.4026     | 7.9201     | 8.4984     |   8.1 | 40.66
+Neigh   | 1.5392     | 1.616      | 1.752      |   3.0 |  8.30
+Comm    | 9.0772     | 9.7028     | 10.315     |   8.1 | 49.81
+Output  | 0.00091094 | 0.00093105 | 0.0010414  |   0.0 |  0.00
+Modify  | 0.14241    | 0.17064    | 0.20711    |   3.2 |  0.88
+Other   |            | 0.06832    |            |       |  0.35
+
+Nlocal:        166.667 ave         176 max         156 min
+Histogram: 2 7 11 15 42 35 35 20 19 6
+Nghost:        1129.89 ave        1155 max        1103 min
+Histogram: 3 9 16 25 34 37 32 25 7 4
+Neighs:        6251.22 ave        6809 max        5772 min
+Histogram: 4 9 26 36 39 33 21 15 7 2
+
+Total # of neighbors = 1200234
+Ave neighs/atom = 37.507312
+Neighbor list builds = 5000
+Dangerous builds not checked
+Total wall time: 0:00:19
+
+========================================
+MULTI-NODE LAMMPS FINISHED
+========================================
+Exit code     : 0
+Wall time     : 21 seconds

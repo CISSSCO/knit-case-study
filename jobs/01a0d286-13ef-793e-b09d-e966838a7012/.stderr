@@ -1,0 +1,82 @@
+                   :-) GROMACS - gmx grompp, 2026.1-spack (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.1-pvlg3o7p2vjfv6v6rfwnk6pvbsnsr2n4/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.1-pvlg3o7p2vjfv6v6rfwnk6pvbsnsr2n4
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi grompp -f pme.mdp -c conf.gro -p topol.top -o water_pme.tpr
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'cpp'
+Ignoring obsolete mdp entry 'ns_type'
+Replacing old mdp entry 'nstxtcout' by 'nstxout-compressed'
+Generating 1-4 interactions: fudge = 0.5
+
+NOTE 1 [file unknown]:
+  You are using constraints on all bonds, whereas the forcefield has been
+  parametrized only with constraints involving hydrogen atoms. We suggest
+  using constraints = h-bonds instead, this will also improve performance.
+
+Number of degrees of freedom in T-Coupling group System is 6143997.00
+
+There was 1 NOTE
+
+Back Off! I just backed up water_pme.tpr to ./#water_pme.tpr.2#
+
+GROMACS reminds you: "Take Dehydrated Water On Your Desert Trips" (Space Quest III)
+
+                   :-) GROMACS - gmx mdrun, 2026.1-spack (-:
+
+Executable:   /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.1-pvlg3o7p2vjfv6v6rfwnk6pvbsnsr2n4/bin/gmx_mpi
+Data prefix:  /home/apps/spack/opt/spack/linux-cascadelake/gromacs-2026.1-pvlg3o7p2vjfv6v6rfwnk6pvbsnsr2n4
+Working dir:  /home/apps/knit/water-cut1.0_GMX50_bare/3072
+Command line:
+  gmx_mpi mdrun -nsteps 5000 -s water_pme.tpr
+
+
+Back Off! I just backed up md.log to ./#md.log.2#
+Reading file water_pme.tpr, VERSION 2026.1-spack (single precision)
+Overriding nsteps with value passed on the command line: 5000 steps, 10 ps
+Changing nstlist from 10 to 50, rlist from 1 to 1.121
+
+
+Using 192 MPI processes
+
+Non-default thread affinity set, disabling internal thread affinity
+
+Using 1 OpenMP thread per MPI process
+
+
+Back Off! I just backed up ener.edr to ./#ener.edr.2#
+starting mdrun 'Water'
+5000 steps,     10.0 ps.
+
+Writing final coordinates.
+
+Back Off! I just backed up confout.gro to ./#confout.gro.2#
+
+
+Dynamic load balancing report:
+ DLB was off during the run due to low measured imbalance.
+ Average load imbalance: 2.1%.
+ The balanceable part of the MD step is 76%, load imbalance is computed from this.
+ Part of the total run time spent waiting due to load imbalance: 1.6%.
+ Average PME mesh/force load: 1.193
+ Part of the total run time spent waiting due to PP/PME imbalance: 9.5 %
+
+NOTE: 9.5 % performance was lost because the PME ranks
+      had more work to do than the PP ranks.
+      You might want to increase the number of PME ranks
+      or increase the cut-off and the grid spacing.
+
+
+NOTE: 9 % of the run time was spent communicating energies,
+      you might want to increase some nst* mdp options
+
+               Core t (s)   Wall t (s)        (%)
+       Time:    21177.646      110.320    19196.5
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:        7.833        3.064       22.060          139.259 
+
+GROMACS reminds you: "Erwin with his psi can do / Calculations quite a few. / But one thing has not been seen / Just what psi really mean." (Felix Bloch)
+

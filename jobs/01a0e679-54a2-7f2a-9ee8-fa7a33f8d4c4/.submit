@@ -1,0 +1,12 @@
+backend=slurm
+opt:project=
+opt:extra-args=--mem=180G
+opt:walltime-defaulted=false
+opt:job-name=knit-gromacs-multi
+opt:queue=gpu-debug
+opt:gpus-per-node=2
+opt:wait=false
+opt:account=
+opt:cpus-per-node=48
+opt:nodes=1
+opt:walltime=01:00:00

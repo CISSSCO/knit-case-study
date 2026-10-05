@@ -1,0 +1,39 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 76312
+SLURM_JOB_NAME = knit-hello
+SLURM_JOB_NODELIST = cbhm0047
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = debug
+SLURM_TASK_PID = 3966544
+SLURM_SUBMIT_DIR = /home/apps/knit
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 48
+SLURM_TASK_PID = 3966544
+==========================================
+========================================
+       KNIT / PARAM RUDRA TEST
+========================================
+Hostname : cbhm0047
+Date     : Thu Sep 24 14:14:58 IST 2026
+
+SLURM
+----------------------------------------
+Job ID       : 76312
+Job Name     : knit-hello
+Partition    : debug
+Nodes        : 1
+NodeList     : cbhm0047
+Tasks        : 48
+CPUs/node    : 48
+
+ALLOCATED HOSTS
+----------------------------------------
+cbhm0047
